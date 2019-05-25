@@ -9,17 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        if let path = Bundle.main.path(forResource: "Player", ofType: "plist")
+        {
+            if let array = NSDictionary(contentsOfFile: path) as? [String : Any]
+            {
+                print(array)
+            }
+    super.viewDidLoad()
     }
-
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
