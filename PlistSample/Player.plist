@@ -37,13 +37,14 @@
 			<key>gender</key>
 			<string>male</string>
 			<key>phone</key>
-			<dict/>
-			<key>mobile</key>
-			<string>+91 0000000000</string>
-			<key>home</key>
-			<string>00 000000</string>
-			<key>office</key>
-			<string>00 000000</string>
+			<dict>
+				<key>mobile</key>
+				<string>+91 0000000000</string>
+				<key>home</key>
+				<string>000000000</string>
+				<key>office</key>
+				<string>00000000</string>
+			</dict>
 		</dict>
 	</array>
 </dict>
